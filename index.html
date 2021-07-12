@@ -20,13 +20,6 @@
         <h1>Weather Dashboard</h1>
       </nav>
 
-
-      <!-- <nav class="navbar nav-bar">
-        <div class="container-fluid">
-          <span class="navbar-brand mb-0 h1">Weather Dashboard</span>
-        </div>
-      </nav> -->
-
     <div class="container" style="padding: 20px 0;">
 
 
@@ -42,23 +35,21 @@
                 <hr>
                 
                 <div class="d-grid gap-2" id="search-history">
-
+                  <!-- <button type="button" class="btn btn-secondary" onclick="storageCity()" >city</button> -->
 
                 </div>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                software like Aldus PageMaker including versions of Lorem Ipsum.
-
-               
+                
             </div>
 
             <div class="col">
                 <div class="row">
-                    <div class="col">
-                        1 of 1
+                    <div class="col" id="weather-current">
+                      
+                        <h2>City name:</h2> <img id="wicon" src="http://openweathermap.org/img/w/03n.png" alt="Weather icon">
+                        <br>Temp:<br>
+                        <br>Wind:<br>
+                        <br>Humidity:<br>
+                        <br>UV Index:&nbsp;<span class="badge bg-success">Success</span><br><br>
                     </div>
                </div>
                <h3>5-Day Forecast:</h3>
