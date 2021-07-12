@@ -27,3 +27,11 @@ h1 {
 .col {
     border: 1px dashed black; 
 }
+
+.card-body {
+    background-color:#33475b;
+}
+
+.card-body > h5 {
+    color: white;
+}
