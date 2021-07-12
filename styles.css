@@ -1,3 +1,24 @@
+
+
+:root {
+    --gradientStart: #0a55d8;
+    --gradientMid: rgb(5, 31, 146);
+    --gradientEnd: #450a97;
+}
+
+
+.nav-bar {
+    background: linear-gradient(90deg, var(--gradientStart), var(--gradientMid), var(--gradientEnd));
+}
+
+
+h1 {
+    color: white;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+}
+
 .row {
     border: 1px dashed red;
     padding:2px;

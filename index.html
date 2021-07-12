@@ -16,16 +16,16 @@
 
 <body>
 
-    <nav class="navbar navbar-dark bg-primary" style="padding: 20px;">
-        <h2>Weather Dashboard</h2>
+    <nav class=" nav-bar" style="padding: 20px;">
+        <h1>Weather Dashboard</h1>
       </nav>
 
 
-      <nav class="navbar navbar-light bg-light">
+      <!-- <nav class="navbar nav-bar">
         <div class="container-fluid">
           <span class="navbar-brand mb-0 h1">Weather Dashboard</span>
         </div>
-      </nav>
+      </nav> -->
 
     <div class="container" style="padding: 20px 0;">
 
@@ -36,8 +36,8 @@
 
                 
                 <div class="d-grid gap-2">
-                    <input type="text" class="form-control" placeholder="Enter City Name" aria-label="Username" aria-describedby="basic-addon1">
-                    <button type="button" class="btn btn-primary">Search</button>
+                    <input type="text" class="form-control" placeholder="Enter City Name" aria-label="Username" aria-describedby="basic-addon1" id="inputCity">
+                    <button type="button" class="btn btn-primary" onclick="search()" >Search</button>
                 </div>
                 <hr>
                 
@@ -116,7 +116,10 @@
                 </div>
             </div>
         </div>
-
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./script.js"></script>
 
 </body>
 
