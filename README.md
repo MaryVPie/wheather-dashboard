@@ -4,10 +4,8 @@
 
 ## About
 
-weather dashboard using various endpoints from the OpenWeather API
-Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
-
-Use the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) to retrieve weather data for cities. Read through the documentation for setup and usage instructions. You will use `localStorage` to store any persistent data. For more information on how to work with the OpenWeather API, refer to the [Full-Stack Blog on how to use API keys](https://coding-boot-camp.github.io/full-stack/apis/how-to-use-api-keys).
+This weather dashboard application shows the current and five days weather forecast for various cities. 
+This app runs in the browser and feature dynamically updated HTML and CSS. Also, here was used the Moment.js library to work with date.
 
 ## User Story
 
@@ -20,7 +18,7 @@ SO THAT I can plan a trip accordingly
 
 ## Screenshots and mockups of the page
 
-|<img src=".\readme_assets\maryvpie.github.io_homework-1-marketing-agency_.png" width="500" height="750" alt="Homepage"/>| <img src=".\Assets/06-server-side-apis-homework-demo.png" width="600" height="450" alt="The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta."/> |
+|<img src=".\Assets/Capture.PNG" width="600" height="450" alt="Homepage"/>| <img src=".\Assets/06-server-side-apis-homework-demo.png" width="600" height="450" alt="The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta."/> |
 | --- | --- |
 |  Work done | Mockup |
 
@@ -32,16 +30,11 @@ SO THAT I can plan a trip accordingly
   - optimized for the accessibility needs
   - made as per initial mockups
 - styles.css
-  - optimized styles
-  - comments about how they are styling respective elements groups
+  - Bootstrap Framework
 
-- uses the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) to retrieve weather data
-- uses `localStorage` to store persistent data
-
-
-
-
-
+- [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) to retrieve weather data
+- `localStorage` to store persistent data
+- `moment.js`
 
 
 
