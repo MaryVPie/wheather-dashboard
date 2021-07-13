@@ -20,12 +20,8 @@ h1 {
 }
 
 .row {
-    border: 1px dashed red;
-    padding:2px;
-}
 
-.col {
-    border: 1px dashed black; 
+    padding:2px;
 }
 
 .card-body {
@@ -34,4 +30,16 @@ h1 {
 
 .card-body > h5 {
     color: white;
+}
+
+#weather-current img {
+    display: inline;
+}
+
+#weather-current h2 {
+    display: inline;
+}
+
+#container-weather-current {
+    border: 1px solid black; 
 }
