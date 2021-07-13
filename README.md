@@ -1,6 +1,6 @@
 # Weather Dashboard
 
-[Deployed version](https://maryvpie.github.io/homework-1-marketing-agency/)  
+[Deployed version](https://maryvpie.github.io/wheather-dashboard/)  
 
 ## About
 
@@ -18,7 +18,7 @@ SO THAT I can plan a trip accordingly
 
 ## Screenshots and mockups of the page
 
-|<img src=".\Assets/Capture.PNG" width="600" height="450" alt="Homepage"/>| <img src=".\Assets/06-server-side-apis-homework-demo.png" width="600" height="450" alt="The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta."/> |
+|<img src=".\Assets/Capture.PNG" width="400" height="250" alt="Homepage"/>| <img src=".\Assets/06-server-side-apis-homework-demo.png" width="400" height="250" alt="The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta."/> |
 | --- | --- |
 |  Work done | Mockup |
 
@@ -40,9 +40,9 @@ SO THAT I can plan a trip accordingly
 
 ## Links to Review
 
-* The URL of the functional, deployed application:
+* The URL of the functional, deployed application: https://maryvpie.github.io/wheather-dashboard/
 
-* The URL of the GitHub repository: 
+* The URL of the GitHub repository: https://github.com/MaryVPie/wheather-dashboard
 
 
 
